@@ -1,3 +1,5 @@
+// Declare variables using format from moment
+
 const m = moment();
 
 var day = m.format("dddd");
