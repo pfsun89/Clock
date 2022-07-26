@@ -1,5 +1,10 @@
 .grid-container {
+    /* Turns on grid */
     display: grid;
+    /* Make it so that both columns have equal widths */
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    /* Gap between columns */
+    grid-gap: 50px;
+    width: 50%;
+    margin: auto;
 }
